@@ -4,14 +4,27 @@
   "description": "Wallet manager app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src/index.js -d dist",
+    "start": "npm run build && nodemon dist/index.js"
   },
   "author": "Alvin Uchenna",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.11",
+    "mongoose-unique-validator": "^2.0.3",
+    "morgan": "^1.10.0",
+    "validator": "^13.5.2"
+  },
   "devDependencies": {
     "@babel/cli": "^7.12.10",
     "@babel/core": "^7.12.10",
-    "@babel/preset-env": "^7.12.11"
+    "@babel/preset-env": "^7.12.11",
+    "nodemon": "^2.0.7"
   }
 }
