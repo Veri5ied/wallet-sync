@@ -5,10 +5,10 @@ A lightweight wallet manager app
 # Getting Started
 
 - Clone the Responsitory: https://github.com/Veri5ied/wallet-sync.git
-- Run <em>npm i or install</em> to install dependencies in the root directory
-- Cd into client and run <em>npm i or install</em> to install dependencies
-- Setup <em>.env.example</em>
-- Now <em>npm start</em> on both client path and root directory to start client and server
+- Run <b>npm i or install</b> to install dependencies in the root directory
+- Cd into client and run <b>npm i or install</b> to install dependencies
+- Setup <b>.env.example</b>
+- Now <b>npm start</b> on both client path and root directory to start client and server
 
 # Technologies
 
