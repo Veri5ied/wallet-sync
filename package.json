@@ -1,0 +1,11 @@
+{
+  "name": "wallet-sync",
+  "version": "1.0.0",
+  "description": "Wallet manager app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alvin Uchenna",
+  "license": "MIT"
+}
