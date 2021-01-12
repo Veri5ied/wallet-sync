@@ -1,0 +1,9 @@
+.home {
+  background: url("../../assets/svg/bubble-animated-background.svg");
+  height: 100vh;
+  display: grid;
+}
+
+.home > .home__hero {
+  margin: auto;
+}
