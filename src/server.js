@@ -2,6 +2,7 @@ import express, { json, urlencoded } from "express";
 import cors from "cors";
 import morgan from "morgan";
 import dotenv from "dotenv";
+import { connect } from "./config/db";
 
 dotenv.config();
 
@@ -17,6 +18,7 @@ app.use(morgan("dev"));
 
 export const start = async () => {
   try {
+    await connect();
     app.listen(PORT, () => {
       console.log(`App is running on port ${PORT}`);
     });
@@ -24,4 +26,3 @@ export const start = async () => {
     console.error(error);
   }
 };
-
