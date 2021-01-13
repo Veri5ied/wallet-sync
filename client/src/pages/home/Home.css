@@ -34,7 +34,7 @@
 .home__button {
   display: flex;
   justify-content: center;
-  padding: 0 3em;
+  margin: 0 auto;
 }
 
 .home__button > button {
@@ -64,4 +64,26 @@
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+  .home {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .home > .home__hero {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home__button {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .home__title > h3 {
+    font-size: 20px;
+  }
 }
