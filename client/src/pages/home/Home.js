@@ -6,13 +6,13 @@ function Home() {
     <div className="home">
       <div className="home__hero">
         <div className="home__title">
-          <h3>
+          <h2>
             The new era of electronic <span>payments</span>
-          </h3>
-          <h4>
+          </h2>
+          <h3>
             New level finance product with new functionality that is available
             to everyone
-          </h4>
+          </h3>
         </div>
         <div className="home__button">
           <button className="get__app">Get the app</button>

@@ -7,3 +7,61 @@
 .home > .home__hero {
   margin: auto;
 }
+
+.home__title > h2 {
+  font-size: 40px;
+  font-weight: bolder;
+  text-align: center;
+  color: #fff;
+  padding: 0.5em 0;
+}
+
+.home__title > h2 span {
+  color: yellow;
+  border-bottom: 2px solid yellow;
+  padding: 0.2em;
+}
+
+.home__title > h3 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: normal;
+  text-align: center;
+  color: #fff;
+  padding: 0.5em 0;
+}
+
+.home__button {
+  display: flex;
+  justify-content: center;
+  padding: 0 3em;
+}
+
+.home__button > button {
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  cursor: pointer;
+  width: 300px;
+  height: 60px;
+  padding: 1em;
+  margin: 1em;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  transition: all 0.2s ease-in-out;
+}
+
+.home__button > button:hover {
+  transform: scale(1.1);
+}
+
+.home__button > .get__app {
+  background-color: yellow;
+}
+
+.home__button > .get__started {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
