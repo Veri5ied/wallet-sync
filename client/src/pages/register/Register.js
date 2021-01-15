@@ -1,7 +1,8 @@
 import React from "react";
 import validate from "./validate";
 import { useFormik } from "formik";
-import "./Register.css";
+import { Link } from "react-router-dom";
+import "../Auth.css";
 
 function Register() {
   const formik = useFormik({
@@ -25,7 +26,7 @@ function Register() {
             <h2>Create a Free Account</h2>
           </div>
           <div className="form__control">
-            <label for="fullname">First Name</label>
+            <label for="firstname">First Name</label>
             <input
               type="text"
               name="firstName"
@@ -76,7 +77,9 @@ function Register() {
       </main>
       <footer className="text-center">
         <p>
-          <a href="#">Already have an account? Login</a>
+          <a href>
+            Already have an account? <Link to="/signin">Login</Link>
+          </a>
         </p>
       </footer>
     </>

@@ -23,7 +23,7 @@
 }
 
 .home__title > h3 {
-  font-size: 25px;
+  font-size: 23px;
   font-style: normal;
   font-weight: normal;
   text-align: center;
@@ -63,6 +63,10 @@
 .home__button > .get__started {
   background-color: transparent;
   border: 2px solid #fff;
+  color: #fff;
+}
+#co {
+  text-decoration: none;
   color: #fff;
 }
 
