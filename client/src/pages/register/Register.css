@@ -1,0 +1,89 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.3rem;
+  background: url("../../assets//svg/bubble-animated-background.svg") !important;
+  height: 100vh;
+}
+
+main {
+  margin: 4% 4%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  padding: 0 4rem;
+  max-width: 40rem;
+  background-color: #fff;
+  border-radius: 2rem;
+}
+
+form .form__info {
+  padding: 3rem 0;
+}
+
+.form-info > p {
+  padding: 0.2rem;
+  color: #4a5568;
+}
+
+form h2 {
+  color: #083e9e;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.6rem;
+  color: #4a5568;
+  font-size: 1.2rem;
+}
+
+form input,
+form select {
+  height: 4.2rem;
+  width: 100%;
+  padding: 0 0.7rem;
+  background-color: #edf2f7;
+  font-family: inherit;
+  border: none;
+  border-radius: 0.3rem;
+}
+
+.form__control {
+  margin-bottom: 3rem;
+}
+
+input[type="submit"] {
+  margin-bottom: 3rem;
+  background-color: #083e9e;
+  color: #fff;
+  font-weight: bold;
+  height: 5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in;
+}
+
+input[type="submit"]:hover {
+  background-color: #062863;
+}
+
+footer {
+  margin: 1rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+footer a:hover {
+  color: #9fa3aa;
+}
