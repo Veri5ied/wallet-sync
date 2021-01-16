@@ -3,23 +3,23 @@ import "./Loading.css";
 
 function Loading() {
   return (
-    <div class="container">
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
-      <div class="block"></div>
+    <div className="container">
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
+      <div className="block"></div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../Auth.css"
+import "../Auth.css";
 
 function Login() {
   return (
@@ -35,9 +35,10 @@ function Login() {
       </main>
       <footer className="text-center">
         <p>
-          <a href>
-            No account? <Link to="/register">Register</Link>
-          </a>
+          No account?{" "}
+          <Link to="/register" id="co">
+            Register
+          </Link>
         </p>
       </footer>
     </>

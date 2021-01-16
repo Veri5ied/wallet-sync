@@ -81,7 +81,11 @@ footer {
   font-size: 12px;
 }
 
-footer a {
+footer p {
   text-decoration: none;
   color: #fff;
+}
+
+footer > p > #co:hover {
+  color: #4a5568;
 }
